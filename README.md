@@ -25,7 +25,7 @@ Depending on your version of Firefox and Selenium, you may run into JavaScript e
  * Use an older version of Firefox
  * Upgrade Selenium to >=3.0.2 and download the [geckodriver](https://github.com/mozilla/geckodriver/releases). Make sure the geckodriver is findable by your PATH variable. You can do this by adding this line to your `.bashrc` or `.bash_profile`. (Wondering what these are? Please read the Appendix C on learning the command line).
  * Use [PhantomJS](http://phantomjs.org/) with Selenium (change your browser line to `webdriver.PhantomJS('path/to/your/phantomjs/installation')`)
- * Use Chrome, InternetExplorer or any other [supported browser](http://www.seleniumhq.org/about/platforms.jsp)
+ * Use Chrome, InternetExplorer or any other [browser covered by the Selenium components guide](https://www.selenium.dev/documentation/overview/components/)
 
 Feel free to reach out if you have any questions!
 
@@ -36,3 +36,8 @@ If you find any issues in these code examples, feel free to submit an Issue or P
 ### Questions?
 
 Reach out to @kjam and @JackieKazil on Twitter or GitHub. @kjam is also often on freenode. :)
+
+
+## Historical web captures
+
+The HTML files in `data/chp11/` and `data/chp12/` are saved input data for the book's scraping exercises. Their original links and markup are preserved so the examples continue to use the same source material. Some external links are no longer available, and root-relative URLs require the original website context. These files are historical fixtures, not a maintained navigation site.
